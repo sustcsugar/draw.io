@@ -1,0 +1,51 @@
+
+{signal: [
+  {node:'a.....b......cd.......f.g.h'},
+  {name: 'clk', wave: 'p...|.....|.........|........'},
+  ['BF',
+  {name: 'raw_data', wave: '2222|',  data: ["f1p1", "f1p2", "f1p3"] },
+  {name: 'linebuffer_out', wave: '....|22222|',  data: ["f1p1", "f1p2", "f1p3"]},
+  {name: 'bf_out', wave: '....|.....|.22222',  data: ["f1p1", "f1p2", "f1p3"]},
+  ], 
+  {},//空格
+  ['noise_map',
+  {name: 'pixel_diff', wave: '....|.....|..22222',  data: ["f1p1", "f1p2", "f1p3"]},
+  {name: 'noise_map', wave: '....|.....|..22222',  data: ["f1p1", "f1p2", "f1p3"]},
+  ], 
+  {},//空格
+  ['b+w',
+  {name: 'pixel_diff_dly', wave: '....|.....|.........|22222',  data: ["f1p1", "f1p2", "f1p3"]},
+  {name: 'noise_blur', wave: '....|.....|.........|22222',  data: ["f1p1", "f1p2", "f1p3"]},
+  {name: 'wiener_map', wave: '....|.....|.........|..22222',  data: ["f1p1", "f1p2", "f1p3"]},
+  ], 
+  {},//空格
+  ['merge',
+  {name: 'data_merged', wave: '....|.....|.........|....22222',  data: ["f1p1", "f1p2", "f1p3"]},
+  ],
+  {},//空格
+  ['mem',
+  {name: 'wr_addr', wave: '....|.....|.........|....22222',  data: ["f1p1", "f1p2", "f1p3"],node:'..........................z' },
+  {name: 'wr_data', wave: '....|.....|.........|....22222',  data: ["f1p1", "f1p2", "f1p3"]},
+  {name: 'rd_addr', wave: '....|.....|22222',  data: ["f0p1", "f0p2", "f0p3"],node:'............y'},
+  {name: 'rd_data', wave: '....|.....|.22222',  data: ["f0p1", "f0p2", "f0p3"]},
+  {name: 'rd_data_dly', wave: '....|.....|.........|..22222',  data: ["f0p1", "f0p2", "f0p3"]},
+  ]
+],  
+edge: [
+    'a~b 5124clk',
+    'b~c 13clk',
+    'c~d 1clk',
+    'd~f (1280+4)clk',
+    'f~g 2clk',
+    'g~h 2clk',
+    'z~y (1280+10)clk',
+  ],
+
+
+  head:{
+  text:'1280*720 3DNR Wave',
+  },
+  "config" : { "hscale" : 1 }
+
+  
+}

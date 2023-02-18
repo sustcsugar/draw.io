@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-18T15:21:21.176Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="fIdANasI05EFE5ZFXJrw" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-18T15:22:06.691Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="lCVqKsPpMqpJH_ZQEtB1" version="20.8.20" type="github">
   <diagram name="Page-1" id="e3a06f82-3646-2815-327d-82caf3d4e204">
     <mxGraphModel dx="2440" dy="1322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -205,6 +205,12 @@
         </mxCell>
         <mxCell id="0UCpNaX0U0LXcG72DFbN-47" value="FTP Server" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.role_applications;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="1060" y="830" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0UCpNaX0U0LXcG72DFbN-52" value="虚拟网卡&lt;br&gt;桥接内网" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="670" y="730" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0UCpNaX0U0LXcG72DFbN-53" value="虚拟网卡&lt;br&gt;桥接&lt;b&gt;外网&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="720" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

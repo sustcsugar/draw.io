@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T08:27:41.401Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="54vmi2h3oX7uFbSz6W0h" version="21.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-06T14:44:23.788Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="bhyjeVLILf5EjlXvIQxN" version="21.0.2" type="github" pages="2">
   <diagram name="frequency-domain" id="N1UbVC6jt1NLMUJWurD7">
     <mxGraphModel dx="1765" dy="1437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,27 +56,80 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LaWtRZXabucmIq8YuyRv" name="第 2 页">
-    <mxGraphModel dx="1412" dy="1149" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="471" dy="383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SmRDoEmOUJiFEA2nINHb-1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Noto+Serif+Simplified+Chinese&quot;&gt;降噪算法&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Noto Serif Simplified Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSerif%2BSimplified%2BChinese;" vertex="1" parent="1">
-          <mxGeometry x="300" y="80" width="120" height="40" as="geometry" />
+        <mxCell id="SmRDoEmOUJiFEA2nINHb-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SmRDoEmOUJiFEA2nINHb-1" target="SmRDoEmOUJiFEA2nINHb-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="130" />
+              <mxPoint x="174" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SmRDoEmOUJiFEA2nINHb-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SmRDoEmOUJiFEA2nINHb-1" target="SmRDoEmOUJiFEA2nINHb-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="130" />
+              <mxPoint x="294" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SmRDoEmOUJiFEA2nINHb-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SmRDoEmOUJiFEA2nINHb-1" target="SmRDoEmOUJiFEA2nINHb-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SmRDoEmOUJiFEA2nINHb-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SmRDoEmOUJiFEA2nINHb-1" target="SmRDoEmOUJiFEA2nINHb-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="130" />
+              <mxPoint x="534" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SmRDoEmOUJiFEA2nINHb-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SmRDoEmOUJiFEA2nINHb-1" target="SmRDoEmOUJiFEA2nINHb-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="130" />
+              <mxPoint x="654" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SmRDoEmOUJiFEA2nINHb-1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Noto+Serif+Simplified+Chinese&quot;&gt;降噪算法分类&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Noto Serif Simplified Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSerif%2BSimplified%2BChinese;" vertex="1" parent="1">
+          <mxGeometry x="354" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SmRDoEmOUJiFEA2nINHb-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SmRDoEmOUJiFEA2nINHb-2" target="SmRDoEmOUJiFEA2nINHb-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SmRDoEmOUJiFEA2nINHb-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SmRDoEmOUJiFEA2nINHb-2" target="SmRDoEmOUJiFEA2nINHb-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SmRDoEmOUJiFEA2nINHb-2" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Noto+Serif+Simplified+Chinese&quot;&gt;空域滤波降噪算法&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Noto Serif Simplified Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSerif%2BSimplified%2BChinese;" vertex="1" parent="1">
-          <mxGeometry x="80" y="160" width="80" height="40" as="geometry" />
+          <mxGeometry x="134" y="160" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SmRDoEmOUJiFEA2nINHb-3" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Noto+Serif+Simplified+Chinese&quot;&gt;变换域滤波降噪算法&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Noto Serif Simplified Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSerif%2BSimplified%2BChinese;" vertex="1" parent="1">
-          <mxGeometry x="200" y="160" width="80" height="40" as="geometry" />
+          <mxGeometry x="254" y="160" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SmRDoEmOUJiFEA2nINHb-4" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Noto+Serif+Simplified+Chinese&quot;&gt;基于块匹配的降噪算法&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Noto Serif Simplified Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSerif%2BSimplified%2BChinese;" vertex="1" parent="1">
-          <mxGeometry x="320" y="160" width="80" height="40" as="geometry" />
+          <mxGeometry x="374" y="160" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SmRDoEmOUJiFEA2nINHb-5" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Noto+Serif+Simplified+Chinese&quot;&gt;基于运动预测的降噪算法&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Noto Serif Simplified Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSerif%2BSimplified%2BChinese;" vertex="1" parent="1">
-          <mxGeometry x="440" y="160" width="80" height="40" as="geometry" />
+          <mxGeometry x="494" y="160" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SmRDoEmOUJiFEA2nINHb-6" value="基于神经网络的降噪算法" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Noto Serif Simplified Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSerif%2BSimplified%2BChinese;" vertex="1" parent="1">
-          <mxGeometry x="560" y="160" width="80" height="40" as="geometry" />
+          <mxGeometry x="614" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SmRDoEmOUJiFEA2nINHb-10" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Noto+Serif+Simplified+Chinese&quot;&gt;线性滤波&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Noto Serif Simplified Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSerif%2BSimplified%2BChinese;" vertex="1" parent="1">
+          <mxGeometry x="134" y="240" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SmRDoEmOUJiFEA2nINHb-11" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Noto+Serif+Simplified+Chinese&quot;&gt;非线性滤波&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Noto Serif Simplified Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSerif%2BSimplified%2BChinese;" vertex="1" parent="1">
+          <mxGeometry x="190" y="240" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SmRDoEmOUJiFEA2nINHb-20" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Noto+Serif+Simplified+Chinese&quot;&gt;傅里叶变换&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Noto Serif Simplified Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSerif%2BSimplified%2BChinese;" vertex="1" parent="1">
+          <mxGeometry x="254" y="240" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SmRDoEmOUJiFEA2nINHb-21" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Noto+Serif+Simplified+Chinese&quot;&gt;小波变换&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Noto Serif Simplified Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSerif%2BSimplified%2BChinese;" vertex="1" parent="1">
+          <mxGeometry x="284" y="240" width="20" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

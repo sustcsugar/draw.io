@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T15:04:18.459Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="xMGs2K5qJvNuIWPGr5zN" version="21.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-06T15:08:33.938Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="DVFXAZ2qhKPreWV325Iw" version="21.0.2" type="github" pages="2">
   <diagram name="frequency-domain" id="N1UbVC6jt1NLMUJWurD7">
     <mxGraphModel dx="1765" dy="1437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -55,8 +55,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="LaWtRZXabucmIq8YuyRv" name="第 2 页">
-    <mxGraphModel dx="487" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="LaWtRZXabucmIq8YuyRv" name="降噪算法分类">
+    <mxGraphModel dx="694" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />

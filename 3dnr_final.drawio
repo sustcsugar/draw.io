@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T06:35:10.102Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.0.2" etag="W0LsenIe_xuJSDuMtUcv" type="github"><diagram name="第 1 页" id="N1UbVC6jt1NLMUJWurD7">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-06T07:41:42.445Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="ztqdxDt3xsoXkd-h83VL" version="21.0.2" type="github">
+  <diagram name="第 1 页" id="N1UbVC6jt1NLMUJWurD7">
+    <mxGraphModel dx="1563" dy="1724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-Eh_UaH_UxTjKZuFWHUh-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-Eh_UaH_UxTjKZuFWHUh-1" target="-Eh_UaH_UxTjKZuFWHUh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Eh_UaH_UxTjKZuFWHUh-1" value="预处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-Eh_UaH_UxTjKZuFWHUh-3" value="&lt;font face=&quot;Times New Roman&quot;&gt;输入图像 I&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="205" y="140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-Eh_UaH_UxTjKZuFWHUh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-Eh_UaH_UxTjKZuFWHUh-4" target="-Eh_UaH_UxTjKZuFWHUh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Eh_UaH_UxTjKZuFWHUh-4" value="变换域" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="260" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-Eh_UaH_UxTjKZuFWHUh-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="244.9" y="160" as="sourcePoint" />
+            <mxPoint x="244.9" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Eh_UaH_UxTjKZuFWHUh-8" value="映射" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="230" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-Eh_UaH_UxTjKZuFWHUh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-Eh_UaH_UxTjKZuFWHUh-9" target="-Eh_UaH_UxTjKZuFWHUh-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Eh_UaH_UxTjKZuFWHUh-9" value="&lt;font face=&quot;Times New Roman&quot;&gt;滤波系数 H(i,j)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="260" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-Eh_UaH_UxTjKZuFWHUh-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-Eh_UaH_UxTjKZuFWHUh-11" target="-Eh_UaH_UxTjKZuFWHUh-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Eh_UaH_UxTjKZuFWHUh-11" value="&lt;font face=&quot;Times New Roman&quot;&gt;逆变换&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="260" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-Eh_UaH_UxTjKZuFWHUh-13" value="后处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="200" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-Eh_UaH_UxTjKZuFWHUh-15" value="&lt;font face=&quot;Times New Roman&quot;&gt;输出图像 J&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-Eh_UaH_UxTjKZuFWHUh-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="494.83000000000004" y="200" as="sourcePoint" />
+            <mxPoint x="495" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

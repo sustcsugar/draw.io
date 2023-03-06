@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T15:16:31.268Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="4xv-8hfbHR8Ev5ZOeTr3" version="21.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-06T15:21:51.799Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="bhpej23oF3RMRQvZhfUG" version="21.0.2" type="github" pages="2">
   <diagram name="frequency-domain" id="N1UbVC6jt1NLMUJWurD7">
     <mxGraphModel dx="1765" dy="1437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,7 +56,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LaWtRZXabucmIq8YuyRv" name="降噪算法分类">
-    <mxGraphModel dx="1100" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="694" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -156,7 +156,7 @@
         <mxCell id="SmRDoEmOUJiFEA2nINHb-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.59;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SmRDoEmOUJiFEA2nINHb-5" target="SmRDoEmOUJiFEA2nINHb-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SmRDoEmOUJiFEA2nINHb-5" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Noto+Serif+Simplified+Chinese&quot;&gt;基于运动预测的降噪算法&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Noto Serif Simplified Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSerif%2BSimplified%2BChinese;" vertex="1" parent="1">
+        <mxCell id="SmRDoEmOUJiFEA2nINHb-5" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Noto+Serif+Simplified+Chinese&quot;&gt;基于运动估计的降噪算法&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Noto Serif Simplified Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSerif%2BSimplified%2BChinese;" vertex="1" parent="1">
           <mxGeometry x="494" y="160" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SmRDoEmOUJiFEA2nINHb-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SmRDoEmOUJiFEA2nINHb-6" target="SmRDoEmOUJiFEA2nINHb-53">

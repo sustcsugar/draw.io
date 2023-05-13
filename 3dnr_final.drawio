@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-13T13:00:48.826Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="hL-eXc-pW35o4edoiwfw" version="21.3.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-13T15:24:25.439Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="acIx6rd89dXRciK0X6Tw" version="21.3.0" type="github" pages="4">
   <diagram name="frequency-domain" id="N1UbVC6jt1NLMUJWurD7">
     <mxGraphModel dx="2074" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1514,7 +1514,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="AWwW-1aJ1kjYk9-GKyfl-1" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="AWwW-1aJ1kjYk9-GKyfl-1" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="400" y="400" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="AWwW-1aJ1kjYk9-GKyfl-18" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="AWwW-1aJ1kjYk9-GKyfl-1">
@@ -1660,7 +1660,7 @@
         <mxCell id="AWwW-1aJ1kjYk9-GKyfl-262" value="中值滤波结果（M）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="385" y="500" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AWwW-1aJ1kjYk9-GKyfl-263" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="AWwW-1aJ1kjYk9-GKyfl-263" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;swimlaneFillColor=none;strokeWidth=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="260" y="400" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="AWwW-1aJ1kjYk9-GKyfl-264" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="AWwW-1aJ1kjYk9-GKyfl-263">

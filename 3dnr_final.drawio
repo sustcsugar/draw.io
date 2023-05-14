@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-14T06:46:42.563Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="HtcjajlUjKKPRmNVj5Qa" version="21.3.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-05-14T07:30:33.489Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="PhtYqJck_SXY8f9Z_aYy" version="21.3.0" type="github" pages="6">
   <diagram name="frequency-domain" id="N1UbVC6jt1NLMUJWurD7">
     <mxGraphModel dx="2074" dy="1068" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2281,7 +2281,7 @@
             <mxRectangle width="20" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="D6IaEH9UbtUPH5Z4f1XC-101" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;4.6&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#36393d;overflow=hidden;fillColor=#ffcccc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="D6IaEH9UbtUPH5Z4f1XC-97">
+        <mxCell id="D6IaEH9UbtUPH5Z4f1XC-101" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;4&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#36393d;overflow=hidden;fillColor=#ffcccc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="D6IaEH9UbtUPH5Z4f1XC-97">
           <mxGeometry x="60" width="20" height="20" as="geometry">
             <mxRectangle width="20" height="20" as="alternateBounds" />
           </mxGeometry>
@@ -2415,8 +2415,22 @@
             <mxRectangle width="20" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="D6IaEH9UbtUPH5Z4f1XC-142" value="求均值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="D6IaEH9UbtUPH5Z4f1XC-142" value="求中值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="409" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="b0iDrkdzOx8QBFrACxnX" name="运动估计">
+    <mxGraphModel dx="691" dy="356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WAS9tZL83Lk4M7B3T3op-1" value="双边滤波结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WAS9tZL83Lk4M7B3T3op-2" value="解压缩模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="480" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
